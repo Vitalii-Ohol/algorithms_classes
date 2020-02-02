@@ -7,7 +7,7 @@ It means:
   * usage of fixed size types (ex `uint_fast16_t`) instead of regular types (ex. `unsigned int`)
   * usage of keyword `register`
   * `getc_unlocked` reading and `putchar_unlocked` writing
-  * usage of bit operators instead of readable one
+  * usage of bit operators instead of readable/normal calculations
   * abnormal usage of pointers and references
 
 These techniques are **useless** in real-life programming but allowed to reduce execution time from 1-5 seconds to 0.01-0.03 seconds in SPOX system
